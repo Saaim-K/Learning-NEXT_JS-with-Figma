@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.container {
+    width: 525px;
+    height: 668.07px;
+    border: 2px solid red;
+}
+
+.typography {
+    width: 310.78px;
+    height: 97.67px;
+    border: 1px solid red;
+}
+
+.head1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 50.4px;
+}
+
+.head2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500px;
+    font-size: 25px;
+    line-height: 38.5px;
+}
+
+
+
+
+.rectangle {
+    background: url(../public/Rectangle7126.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40vw;
+}
+
+.pyxis {
+    background: url(../public/Pyxis_One_ICON.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 50px;
+    left: 5%;
+    right: 4.26%;
+    top: 4.69%;
+    bottom: 5%;
+}
+
+.logo {
+    background: url(../public/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 243.62px;
+    height: 243.62px;
+    position: absolute;
+    right: -103px;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 35px;
+    position: absolute;
+    width: 628px;
+    height: 96px;
+    left: 5%;
+    top: 30%;
+}
+.subtext{
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 55px;
+    position: absolute;
+}
