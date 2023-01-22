@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.rectangle {
+    background: url(../public/Rectangle7126.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40vw;
+}
+
+.pyxis {
+    background: url(../public/Pyxis_One_ICON.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 50px;
+    left: 5%;
+    right: 4.26%;
+    top: 4.69%;
+    bottom: 5%;
+}
+
+.logo {
+    background: url(../public/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 243.62px;
+    height: 243.62px;
+    position: absolute;
+    right: -103px;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 35px;
+    position: absolute;
+    width: 628px;
+    height: 96px;
+    left: 5%;
+    top: 30%;
+}
+
+.subtext {
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 65px;
+    position: absolute;
+}

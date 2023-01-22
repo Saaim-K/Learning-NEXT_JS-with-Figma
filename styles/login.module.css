@@ -1,79 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-.container {
-    width: 525px;
-    height: 668.07px;
-    border: 2px solid red;
+.login_form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.typography {
-    width: 310.78px;
-    height: 97.67px;
-    border: 1px solid red;
+.login {
+    position: relative;
+    left: 15%;
+    height: 450px;
+    width: 30%;
+}
+
+.head {
+    color: #171717;
+    padding-bottom: 35px;
+    letter-spacing: 0.5px;
 }
 
 .head1 {
     font-family: 'Outfit', sans-serif;
-    font-weight: 700px;
-    font-size: 40px;
-    line-height: 50.4px;
+    font-weight: 700;
+    font-size: 33px;
 }
 
 .head2 {
     font-family: 'Outfit', sans-serif;
-    font-weight: 500px;
-    font-size: 25px;
-    line-height: 38.5px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 10px;
 }
 
-
-
-
-.rectangle {
-    background: url(../public/Rectangle7126.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 40vw;
-}
-
-.pyxis {
-    background: url(../public/Pyxis_One_ICON.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
+.input_box {
     height: 50px;
-    left: 5%;
-    right: 4.26%;
-    top: 4.69%;
-    bottom: 5%;
-}
-
-.logo {
-    background: url(../public/logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 243.62px;
-    height: 243.62px;
-    position: absolute;
-    right: -103px;
-}
-
-.text {
+    width: 100%;
+    border: none;
+    background: #EFEFEF;
+    border-radius: 5px;
+    outline: none;
     font-family: 'Outfit', sans-serif;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 0px 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_box {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #171717;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.checkbox_text {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #171717;
+    padding-top: 5px;
+}
+
+.forgot {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #171717;
+    padding-top: 5px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button1,
+.button2 {
+    height: 50px;
+    width: 100%;
+    border: none;
     color: white;
-    line-height: 35px;
-    position: absolute;
-    width: 628px;
-    height: 96px;
-    left: 5%;
-    top: 30%;
-}
-.subtext{
+    border-radius: 5px;
     font-family: 'Outfit', sans-serif;
+    font-weight: 500;
     font-size: 17px;
-    color: white;
-    line-height: 55px;
-    position: absolute;
+    margin-bottom: 10px;
+    padding: 0px 25px;
+}
+
+.button1 {
+    background: #1A5CB0;
+    outline: none;
+}
+
+.button2 {
+    background: #EFEFEF;
+    outline: #1A5CB0;
+    color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding-left: 10px;
+    font-weight: 700;
+    color: #171717;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1C2358;
 }
